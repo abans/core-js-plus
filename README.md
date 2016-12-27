@@ -24,10 +24,10 @@ var test = {
 test.get('b')
 // => 'ccc'
 
-test.get('g.0.k')
+test.get('d.g.0.k')
 // => {a: 1}
 
-test.get('test.2')
+test.get('d.test.2')
 // => 'carrot'
 
 ```
