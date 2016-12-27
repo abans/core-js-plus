@@ -1,0 +1,23 @@
+{
+  "name": "js-plus",
+  "version": "1.0.0",
+  "description": "javascript extend",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui tdd --reporter spec test/*.js""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/acans/js-plus.git"
+  },
+  "keywords": [
+    "js",
+    "plus"
+  ],
+  "author": "Acan <abans@qq.com> (http://example.com)",
+  "license": "ISC"
+}
