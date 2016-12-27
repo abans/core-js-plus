@@ -1,4 +1,4 @@
-if (typeof module === undefined) module = {}
+if (typeof module === 'undefined') module = {}
 module.exports = mod
 
 function mod () {
