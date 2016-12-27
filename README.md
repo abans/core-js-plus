@@ -2,7 +2,18 @@
 
 Return the value at given object path.
 
+## Install
+
+```bash
+$ npm install core-js-plus
+```
+
 ## Usage
+
+```js
+<script src="./index.js"><script>
+
+```
 
 ```js
 
