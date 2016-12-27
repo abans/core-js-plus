@@ -30,6 +30,8 @@ test.get('d.g.0.k')
 test.get('d.test.2')
 // => 'carrot'
 
+// if undefined return default value
+
 test.get('d.ddd', 'def')
 // => 'def'
 
