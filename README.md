@@ -30,4 +30,10 @@ test.get('d.g.0.k')
 test.get('d.test.2')
 // => 'carrot'
 
+test.get('d.ddd', 'def')
+// => 'def'
+
+test.get('d.9', 'def')
+// => 'def'
+
 ```
