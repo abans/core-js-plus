@@ -28,3 +28,7 @@ mod.get = function (str, df, isSet) {
   if (rs === undefined && df) return df
   return rs
 }
+
+if (typeof window === 'object') {
+  mod()
+}
