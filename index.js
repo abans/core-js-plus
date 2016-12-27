@@ -2,11 +2,7 @@ if (typeof module === undefined) module = {}
 module.exports = mod
 
 function mod () {
-  console.log(111)
-  global.Object.defineProperty(Object.prototype, "get", {value: mod.get})
-  // Object.prototype.get = mod.get
-  var test = {}
-  console.log(test.get, 123)
+  Object.prototype.get = mod.get
 }
 
 // object get
